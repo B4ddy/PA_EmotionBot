@@ -38,7 +38,7 @@ SILENCE_DURATION_MS = 1000
 # Whisper-Modellgrößen: "tiny", "base", "small", "medium", "large"
 # Größer = genauer, aber langsamer und braucht mehr Speicher
 # Empfehlung für Raspberry Pi 5: "small" (gute Balance)
-WHISPER_MODEL_SIZE = "small"
+WHISPER_MODEL_SIZE = "tiny"
 
 # Pfad zum Emotionserkennungs-Modell
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
